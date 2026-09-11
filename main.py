@@ -44,7 +44,7 @@ while True:
             for i in range(len(tarefas)):
                 print(i + 1,'-', tarefas[i]), '\n'
 
-                system('Pause')
+            system('Pause')
 
 
     elif opcao == 3:
@@ -108,11 +108,11 @@ while True:
             else:
                 removida = tarefas.pop(numero - 1)
 
-                print('\nA tarefa "{}" foi removida!'.format(removida))
+                print('\nA tarefa "{}" foi removida!\n'.format(removida))
+                system('Pause')
 
 
     elif opcao == 5:
         print('Encerrando programa "Lista de Tarefas"...')
         break
-
 
